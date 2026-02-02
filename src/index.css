@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* ATS Professional Color System */
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 14%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 25%;
+    --input: 215 28% 20%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Score Colors */
+    --score-high: 142 76% 36%;
+    --score-high-bg: 142 76% 36% / 0.15;
+    --score-medium: 38 92% 50%;
+    --score-medium-bg: 38 92% 50% / 0.15;
+    --score-low: 0 72% 51%;
+    --score-low-bg: 0 72% 51% / 0.15;
+
+    /* Semantic Colors */
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 222 47% 11%;
+
+    /* Panel Colors */
+    --panel-bg: 222 47% 13%;
+    --panel-header: 222 47% 16%;
+
+    /* Skill Chips */
+    --chip-matched: 142 76% 36%;
+    --chip-matched-bg: 142 76% 36% / 0.2;
+    --chip-missing: 0 72% 51%;
+    --chip-missing-bg: 0 72% 51% / 0.2;
+    --chip-neutral: 215 28% 40%;
+    --chip-neutral-bg: 215 28% 25%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 14%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 28% 25%;
+    --input: 215 28% 20%;
+    --ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-card rounded-xl border border-border shadow-lg;
+  }
+
+  .panel-header {
+    @apply px-6 py-4 border-b border-border bg-[hsl(var(--panel-header))];
+  }
+
+  .metric-card {
+    @apply bg-card rounded-xl border border-border p-5 transition-all duration-200 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5;
+  }
+
+  .score-badge {
+    @apply inline-flex items-center justify-center px-3 py-1 rounded-full text-sm font-semibold;
+  }
+
+  .score-badge-high {
+    @apply bg-[hsl(var(--score-high-bg))] text-[hsl(var(--score-high))];
+  }
+
+  .score-badge-medium {
+    @apply bg-[hsl(var(--score-medium-bg))] text-[hsl(var(--score-medium))];
+  }
+
+  .score-badge-low {
+    @apply bg-[hsl(var(--score-low-bg))] text-[hsl(var(--score-low))];
+  }
+
+  .skill-chip {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-xs font-medium transition-colors;
+  }
+
+  .skill-chip-matched {
+    @apply bg-[hsl(var(--chip-matched-bg))] text-[hsl(var(--chip-matched))] border border-[hsl(var(--chip-matched))]/30;
+  }
+
+  .skill-chip-missing {
+    @apply bg-[hsl(var(--chip-missing-bg))] text-[hsl(var(--chip-missing))] border border-[hsl(var(--chip-missing))]/30;
+  }
+
+  .skill-chip-neutral {
+    @apply bg-[hsl(var(--chip-neutral-bg))] text-[hsl(var(--chip-neutral))] border border-[hsl(var(--chip-neutral))]/30;
+  }
+
+  .table-row-hover {
+    @apply transition-colors hover:bg-secondary/50 cursor-pointer;
+  }
+
+  .loader-pulse {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  .file-item {
+    @apply flex items-center justify-between p-3 bg-secondary/50 rounded-lg border border-border transition-all hover:border-primary/30;
+  }
+}
+
+@layer utilities {
+  .text-gradient-primary {
+    @apply bg-gradient-to-r from-primary to-[hsl(200,90%,60%)] bg-clip-text text-transparent;
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground));
+  }
+}

@@ -1,0 +1,4 @@
+spacy==3.7.2
+scikit-learn==1.4.0
+pandas==2.2.0
+PyMuPDF>=1.22.0

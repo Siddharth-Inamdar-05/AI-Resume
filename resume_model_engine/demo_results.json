@@ -1,0 +1,262 @@
+[
+  {
+    "candidate_id": "dummy_resume_1_Aarav_Mehta",
+    "emails": [
+      "aarav.mehta.dev@gmail.com"
+    ],
+    "phones": [],
+    "github": [],
+    "linkedin": [],
+    "extracted_skills": [
+      "automation",
+      "c",
+      "computer vision",
+      "data structures",
+      "deep learning",
+      "git",
+      "github",
+      "keras",
+      "machine learning",
+      "natural language processing",
+      "opencv",
+      "probability",
+      "python",
+      "spacy",
+      "sql",
+      "statistics",
+      "tensorflow"
+    ],
+    "matched_skills": [
+      "c",
+      "computer vision",
+      "deep learning",
+      "git",
+      "github",
+      "keras",
+      "machine learning",
+      "opencv",
+      "python",
+      "tensorflow"
+    ],
+    "missing_skills": [
+      "classification",
+      "documentation",
+      "testing",
+      "version control"
+    ],
+    "skill_match_score": 71.43,
+    "semantic_similarity_score": 30.82,
+    "final_match_score": 51.12,
+    "ner_entities": {
+      "PERSON": [
+        "Aarav Mehta Phone",
+        "Grad-CAM",
+        "Machine Learning",
+        "C++",
+        "SQL",
+        "ML Intern",
+        "Hackathon"
+      ],
+      "ORG": [
+        "GitHub",
+        "AI/ML",
+        "ML",
+        "CNN",
+        "B.Tech — Computer Science",
+        "XYZ Institute of Technology",
+        "Deep Learning",
+        "Data Structures",
+        "Probability & Statistics Technical Skills Programming",
+        "Frameworks/Tools:"
+      ],
+      "GPE": [
+        "LinkedIn",
+        "linkedin.com/in/aarav-mehta-ai",
+        "F1",
+        "ROC",
+        "MediaPipe"
+      ],
+      "DATE": [
+        "2026",
+        "Dec 2025",
+        "2025"
+      ]
+    },
+    "short_reason": "Good match: 71% skills matched. Low semantic relevance. Missing: classification, documentation, testing (+1 more)."
+  },
+  {
+    "candidate_id": "Siddharth Inamdar",
+    "emails": [
+      "siddharth.inamdar3108@gmail.com"
+    ],
+    "phones": [
+      "7666870293",
+      "+91 7666870293"
+    ],
+    "github": [
+      "https://github.com/Siddharth-Inamdar-05"
+    ],
+    "linkedin": [
+      "https://www.linkedin.com/in/siddharth-inamdar-428ab6320"
+    ],
+    "extracted_skills": [
+      "c++",
+      "computer vision",
+      "deep learning",
+      "git",
+      "github",
+      "keras",
+      "machine learning",
+      "neural networks",
+      "opencv",
+      "problem solving",
+      "python",
+      "teamwork",
+      "tensorflow"
+    ],
+    "matched_skills": [
+      "computer vision",
+      "deep learning",
+      "git",
+      "github",
+      "keras",
+      "machine learning",
+      "opencv",
+      "python",
+      "tensorflow"
+    ],
+    "missing_skills": [
+      "c",
+      "classification",
+      "documentation",
+      "testing",
+      "version control"
+    ],
+    "skill_match_score": 64.29,
+    "semantic_similarity_score": 28.49,
+    "final_match_score": 46.39,
+    "ner_entities": {
+      "PERSON": [
+        "Siddharth Inamdar Phone",
+        "LinkedIn",
+        "https://www.linkedin.com/in/siddharth-inamdar-428ab6320/ GitHub:",
+        "Deep",
+        "Grad-CAM",
+        "CV",
+        "Bhopal",
+        "Applied Grad-CAM",
+        "Nov 2025",
+        "Hackathon Top"
+      ],
+      "ORG": [
+        "AI/ML",
+        "MediaPipe",
+        "Vellore Institute of Technology",
+        "VIT",
+        "Convolutional Neural Networks",
+        "CNN",
+        "AUC",
+        "ML",
+        "AI-Based Gesture Controller for Spotify",
+        "Awards & Honors"
+      ],
+      "GPE": [
+        "Spotify",
+        "Delhi",
+        "New Delhi",
+        "MediaPipe",
+        "Git"
+      ],
+      "DATE": [
+        "7666870293",
+        "2024",
+        "Dec 2025",
+        "OpenCV + MediaPipe",
+        "2025"
+      ]
+    },
+    "short_reason": "Good match: 64% skills matched. Low semantic relevance. Missing: c, classification, documentation (+2 more)."
+  },
+  {
+    "candidate_id": "dummy_resume_2_Neha_Kulkarni",
+    "emails": [
+      "neha.kulkarni.ml@gmail.com"
+    ],
+    "phones": [],
+    "github": [],
+    "linkedin": [],
+    "extracted_skills": [
+      "bash",
+      "classification",
+      "computer vision",
+      "data science",
+      "deep learning",
+      "docker",
+      "git",
+      "github",
+      "hyperparameter tuning",
+      "keras",
+      "machine learning",
+      "opencv",
+      "python",
+      "sql",
+      "statistics",
+      "tensorflow"
+    ],
+    "matched_skills": [
+      "classification",
+      "computer vision",
+      "deep learning",
+      "git",
+      "github",
+      "keras",
+      "machine learning",
+      "opencv",
+      "python",
+      "tensorflow"
+    ],
+    "missing_skills": [
+      "c",
+      "documentation",
+      "testing",
+      "version control"
+    ],
+    "skill_match_score": 71.43,
+    "semantic_similarity_score": 19.18,
+    "final_match_score": 45.31,
+    "ner_entities": {
+      "PERSON": [
+        "LinkedIn",
+        "CV",
+        "Bash",
+        "Docker"
+      ],
+      "ORG": [
+        "GitHub",
+        "ABC University",
+        "Deep Learning",
+        "DBMS Technical Skills Programming: Python",
+        "Frameworks/Tools:",
+        "Projects Driver Drowsiness Detection",
+        "CNN",
+        "Plant Disease Classification",
+        "EfficientNet/MobileNet",
+        "• Created"
+      ],
+      "GPE": [
+        "Python",
+        "SQL",
+        "Git"
+      ],
+      "DATE": [
+        "2021 – 2026",
+        "Sep 2025",
+        "Jan 2025",
+        "Feb 2025",
+        "May 2025",
+        "weekly"
+      ]
+    },
+    "short_reason": "Good match: 71% skills matched. Low semantic relevance. Missing: c, documentation, testing (+1 more)."
+  }
+]

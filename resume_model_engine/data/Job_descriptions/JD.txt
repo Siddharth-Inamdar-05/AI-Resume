@@ -1,0 +1,64 @@
+## Dummy Job Description (For Resume Screening Project)
+
+### Job Title: **AI/ML Engineer Intern – Computer Vision (Deep Learning)**
+
+**Location:** Remote / On-site (India)
+**Duration:** 3–6 Months
+**Stipend:** As per company standards
+
+---
+
+### About the Role
+
+We are looking for an **AI/ML Engineer Intern** who is passionate about **computer vision and deep learning**. You will work on real-world **image classification** and **real-time vision pipelines**, build models using **TensorFlow/Keras**, and deploy/optimize CV systems using **OpenCV and MediaPipe**.
+
+---
+
+### Key Responsibilities
+
+* Build and train **deep learning models (CNN-based)** for image classification tasks.
+* Work with **computer vision pipelines** using **OpenCV** for real-time video processing.
+* Implement **hand landmark tracking and gesture recognition** using **MediaPipe**.
+* Perform model evaluation using metrics such as:
+
+  * Accuracy, Precision, Recall, F1-score, AUC
+* Improve interpretability using explainability methods like **Grad-CAM**.
+* Handle end-to-end ML workflow:
+
+  * dataset preprocessing → training → evaluation → visualization → testing
+* Maintain clean codebase using **Git/GitHub** and write short project documentation.
+
+---
+
+### Required Skills
+
+* Strong knowledge of **Python**
+* Hands-on experience with:
+
+  * **TensorFlow / Keras**
+  * **OpenCV**
+  * **scikit-learn**
+* Understanding of:
+
+  * CNNs, training workflows
+  * classification metrics (precision/recall/F1/AUC)
+* Basic Git version control knowledge
+
+---
+
+### Good to Have (Bonus)
+
+* Experience with **real-time CV applications**
+* Experience with model explainability (**Grad-CAM / saliency maps**)
+* Working knowledge of **C++**
+* Hackathon/project experience
+
+---
+
+### What You’ll Gain
+
+* Hands-on experience building AI models for real-world projects
+* Mentorship from senior engineers
+* Strong CV/ML portfolio projects
+* Certification & LOR (for top performers)
+

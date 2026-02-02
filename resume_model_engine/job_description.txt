@@ -1,0 +1,25 @@
+Senior Machine Learning Engineer
+
+We are looking for an experienced ML Engineer to join our AI team.
+
+Required Skills:
+- 5+ years of Python programming experience
+- Strong experience with TensorFlow or PyTorch
+- Deep learning and neural networks expertise
+- Experience with AWS cloud services
+- SQL and database management
+- Docker and Kubernetes for deployment
+- Git version control
+- Strong communication and teamwork skills
+
+Responsibilities:
+- Design and implement ML models for production
+- Build data pipelines and ETL processes
+- Deploy models to cloud infrastructure
+- Collaborate with cross-functional teams
+- Mentor junior engineers
+
+Nice to have:
+- Experience with NLP and computer vision
+- Knowledge of MLflow or similar ML platforms
+- Publications or open-source contributions
